@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee5253;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    background-color: #ff6b81;
+}
+
+.grid{
+display: flex;
+flex-wrap: wrap;
+font-family: fantasy;
+}
+
+.grid img{
+border: 2px solid #576574;
+border-radius: 50px;
+}
+
+.origami{
+    position: relative;
+    right: -150px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 490px;
+    font-family: fantasy;
+    margin: 50px;
+}
+
+.bodyimg,p{
+    color: #fffffb;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0px;
+    padding: 0mm; 
+    background-color: rgb(105, 248, 248);
+    top: 35px;
+    right: 70px;
+}
+
+.box:hover{
+    transform: scale(0.9);
+}
